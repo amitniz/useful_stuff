@@ -8,7 +8,7 @@ RUN apt update && apt install -y git build-essential gdb valgrind \
  python2 python3 python3-pip zsh wget curl
 
 #Install python3 modules
-RUN pip3 install numpy pillow matplotlib twisted pycrypto pycryptodome
+RUN pip3 install numpy pillow matplotlib twisted pycrypto pycryptodome pipenv
 
 
 #Setup the shell 
