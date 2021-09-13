@@ -1,4 +1,4 @@
-# Useful Cheatsheets 
+# Useful Cheatsheets :page_facing_up:
 
  * Bash - <a href="https://devhints.io/bash" target="_blank">cheatsheet</a>
  * Markdown - <a href="https://readme.directual.com/data/data-types/markdown-cheatsheet" target="_blank">cheatsheet</a>
