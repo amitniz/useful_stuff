@@ -5,7 +5,7 @@
 
 ### Python 
 
-1. Print an adress in little endian:
+1. Print an address in little endian:
 `python -c "import struct; print(struct.pack('<I',0xdeadbeef))"`
 2. Convert numbers into a string in hex format (0x prefix with zero padding): `"{:#04x}.format(n)"`
 
