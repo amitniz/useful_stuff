@@ -25,7 +25,7 @@ run with mount dir:
 
 **-it:** interactive mode.
 
-**-p:** mount.
+**-v:** mount.
 
 **-w:** change working dir.
 
