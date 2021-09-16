@@ -1,3 +1,11 @@
+#!/bin/env python3
+'''
+Reverse Shell Generator
+https://github.com/AmitNiz/useful_stuff/blob/master/scripts/revshell_generator.py
+Copyright (C) 2021 Amit Nizri - https://github.com/AmitNiz
+'''
+__author__='Amit Nizri'
+
 import argparse
 
 PYTHON_REV='''import socket,subprocess,os,pty
