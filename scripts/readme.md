@@ -1,6 +1,10 @@
 
 # Useful Scripts & Commands 🧰
 
+## Scripts:
+
+- [Revshell generator](https://github.com/AmitNiz/useful_stuff/blob/master/scripts/revshell_generator.py)
+
 ## Commands:
 
 ### Python 
