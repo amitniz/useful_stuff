@@ -4,7 +4,7 @@ Reverse Shell Generator
 https://github.com/AmitNiz/useful_stuff/blob/master/scripts/revshell_generator.py
 Copyright (C) 2021 Amit Nizri - https://github.com/AmitNiz
 '''
-__author__='Amit Nizri'
+__author__='Amit Nizri, https://github.com/AmitNiz'
 
 import argparse
 
