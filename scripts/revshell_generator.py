@@ -151,7 +151,7 @@ revshells = {'PYTHON':PYTHON_REV,'PERL':PERL_REV,'PHP':PHP_REV}
 
 
 def generate(ip,port,template):
-    return template.replace('{HOST_IP}',ip).replace('{PORT}',port)
+    return template.replace('{HOST_IP}','"'+ip+'"').replace('{PORT}',port)
 
 
 parser = argparse.ArgumentParser()
