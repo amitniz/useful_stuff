@@ -2,6 +2,7 @@
 
  * Bash - <a href="https://devhints.io/bash" target="_blank">cheatsheet</a>
  * radare2 - <a href="https://book.rada.re/" target="_blank">cheatsheet</a>
+ * BinaryNinja - <a href="https://cheatography.com/watbulb/cheat-sheets/binary-ninja-macos/" target="_blank">cheatsheet</a>
  * awk - <a href="https://www.shortcutfoo.com/app/dojos/awk/cheatsheet" target="_blank">cheatsheet</a>
  * sed - <a href="https://quickref.me/sed" target="_blank">cheatsheet</a>
  * dd - <a href="https://www.jamescoyle.net/cheat-sheets/1012-dd-cheat-sheet" target="_blank">cheatsheet</a> 
