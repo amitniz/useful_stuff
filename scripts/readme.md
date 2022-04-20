@@ -4,6 +4,7 @@
 ## Scripts:
 
 - [Revshell generator](https://github.com/AmitNiz/useful_stuff/blob/master/scripts/revshell_generator.py)
+- [lsb stegnography tool](https://github.com/AmitNiz/useful_stuff/blob/master/scripts/simple_lsb_steg.py)
 
 ## Commands:
 
