@@ -9,7 +9,7 @@ def _text2bin(text):
 
     bin_list = []
     for c in text:
-        bin_list+= list('{:08b}'.format(ord(c)))
+        bin_list+= list('{:08b}'.format(ord(c) if type(c) == str else c))
     return [int(c) for c in bin_list]
 
 def _bin2text(list):
@@ -101,7 +101,7 @@ if __name__ == '__main__':
         
         if args.output:
             with open(args.output,'wb') as f:
-                f.write(msg)
+                f.write(msg.encode())
         else:
             print(msg)
     
