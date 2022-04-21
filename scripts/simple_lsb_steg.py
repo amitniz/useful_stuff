@@ -14,7 +14,7 @@ def _text2bin(text):
 
 def _bin2text(list):
     '''converts a list of binary numbers to a string'''
-    return r''.join([chr(int(''.join([str(i) for i in list[i:i+8]]),2)) for i in range(0,len(list),8)])
+    return b''.join([(int(''.join([str(i) for i in list[i:i+8]]),2)).to_bytes(1,'big) for i in range(0,len(list),8)])
 
 def _lsb_pixel_inject(pix, bit,channel):
     '''gets a pixel, a bit value and a color channel and returns a modified pixel for the lsb steg.'''
