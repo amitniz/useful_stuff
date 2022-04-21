@@ -101,7 +101,7 @@ if __name__ == '__main__':
         
         if args.output:
             with open(args.output,'wb') as f:
-                f.write(msg.encode())
+                f.write(msg)
         else:
             print(msg)
     
