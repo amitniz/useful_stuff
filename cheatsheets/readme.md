@@ -11,3 +11,15 @@
  * Dockerfile - <a href="https://lzone.de/cheat-sheet/Dockerfile" target="_blank">cheatsheet</a>
  * Markdown - <a href="https://readme.directual.com/data/data-types/markdown-cheatsheet" target="_blank">cheatsheet</a>
 
+
+
+**Self sign certificate**:
+
+  generating private 2048-RSA key:
+  `openssl genrsa -out priv.key 2048`
+
+  generating certificate signed request:
+  `openssl req -new -key priv.key -out request.csr`
+
+  generating certificate:
+  `openssl x509 -req -days 90 -in request.csr -signkey priv.key -out cert.crt`
